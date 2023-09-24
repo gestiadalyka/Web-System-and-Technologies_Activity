@@ -6,6 +6,6 @@
 
 <h3 align="left">Connect with us:</h3>
 <p align="left">
-<a href="https://instagram.com/ur_lyk" target="blank"><img align="center" src="https://instagram.com/ur_lyk?igshid=OGQ5ZDc2ODk2ZA==" alt="ur_lyk" height="30" width="40" /></a>
+<a href="https://www.instagram.com/ur_lyk/" target="blank"><img align="center" src="https://instagram.com/ur_lyk?igshid=OGQ5ZDc2ODk2ZA==" alt="ur_lyk" height="30" width="40" /></a>
 <a href="https://facebook.com/c/simplified learner" target="blank"><img align="center" src="" /></a>
 </p>
