@@ -3,7 +3,7 @@
 <h3 align="center">We are an IT-Student From Sorsogon State University</h3>
 
 <h3 align="left">Organizational Logo:</h3>
-<img align="center" alt="coding" width="700" src="https://github.com/gestiadalyka/gestiada-bayoca-gona-goboli-boco/blob/main/Logo.png">
+<img align="left" alt="coding" width="500" src="https://github.com/gestiadalyka/gestiada-bayoca-gona-goboli-boco/blob/main/Logo.png">
 
 <h3 align="left">Connect with us:</h3>
 <p align="left">
