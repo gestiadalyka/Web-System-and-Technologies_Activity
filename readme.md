@@ -9,6 +9,5 @@
 <p align="left">
 <a href="https://www.instagram.com/ur_lyk/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="ur_lyk" height="30" width="40" /></a>
 <a href="https://www.facebook.com/jorlynfaith.granadino/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="jorlynfaith.granadino" height="30" width="40" /></a>
-<a href="https://web.telegram.org/sherlyn.jo/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/telegram.svg" alt="sherlyn.jo" height="30" width="40" /></a>
 </p>
 
