@@ -1,3 +1,3 @@
-![logo] (https://github.com/gestiadalyka/gestiada-bayoca-gona-goboli-boco/blob/bf468ead6e5519f78070f7bc04b7fbf0fa20e94b/header%20Banner.png)
+![logo] (header Banner.png)
 <h1 align="center">Hi 👋, This is Gestiada, Lyka G. - Bayoca, Sherlyn G. - Gona, Jorlyn G. - Goboli, Geselle G. - Boco, Tricia Mae E.</h1>
 <h3 align="center">We are an IT-Student From Sorsogon State University</h3>
