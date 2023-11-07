@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Properties</title>
+    <!-- === CSS == -->
+    <link rel="stylesheet" href="style.css"
+
+</head>
+<body>
+    <div class="bg-image"></div>
+
+    <div class="align-content-center">
+        <div>Gestiada</div>
+        <div>Bayoca</div>
+        <div>Gona</div>
+        <div>Goboli</div>
+        <div>Boco</div>
+    </div>
+    
+    <div class="mydiv"
+     style="border-top: 3px solid steelblue">
+    </div>
+
+    <article class="mode">
+        此文本从上到下从左到右流动
+    </article>
+
+    <p class="word-wrap">
+        This veryverylongword
+        will be broken
+    </p>
+
+    <div class="my-width">
+        This element is 180 pixels wide.
+    </div>
+    
+    <div class="transition-property"></div>
+
+    <div class="transition"></div>
+
+    <div class="transform-parent">
+        Parent 60deg rotate
+        <div class="transform-child">
+          Child<br />-20deg<br />rotate
+        </div>
+    </div> 
+
+    <div class="transform">
+        <div class="origin-marker"></div>
+    </div>
+
+    <div class="animate"></div>
+
+    <div class="backface">Backface</div>
+
+    <div class="bg">
+        <div class="opaque">
+          Background is pink with 50% opacity.
+        </div>
+    </div>
+
+    <div class="clip-example"></div>
+
+    <div class="bg-example">
+        background-color: #c6d2fe
+    </div>
+
+    <div class="mydiv" style="border-bottom: 3px solid steelblue">
+        3px solid steelblue border
+      </div>
+      <div class="mydiv" style="border-bottom: 5px double lightblue">
+        5px double lightblue border
+      </div>
+      <div class="mydiv" style="border-bottom: 3px dashed red">
+        3px dashed red border
+    </div>
+
+    <div class="border-bottom-example">
+        border-bottom-color: #302ea3.
+    </div>
+
+    <div class="border-rounded">50px radius on bottom left corner</div>
+
+    <div class="border-rounded">
+        50px radius on bottom right corner
+    </div>
+
+    <table class="table-border-collapse">
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Age</th>
+          <th>Course</th>
+        </tr>
+        <tr>
+          <td>Lyka</td>
+          <td>Gestiada</td>
+          <td>21</td>
+          <td>Information Technology</td>
+        </tr>
+        <tr>
+            <td>Sherlyn</td>
+            <td>Bayoca</td>
+            <td>20</td>
+            <td>Information Technology</td>
+        </tr>
+        <tr>
+            <td>Jorlyn</td>
+            <td>Gona</td>
+            <td>21</td>
+            <td>Information Technology</td>
+        </tr>
+        <tr>
+            <td>Geselle</td>
+            <td>Gona</td>
+            <td>22</td>
+            <td>Information Technology</td>
+        </tr>
+        <tr>
+            <td>Tricia</td>
+            <td>Boco</td>
+            <td>21</td>
+            <td>Information Technology</td>
+        </tr>
+    </table>
+
+    <div class="border-image-outset-border">
+        Element with border image outset setting
+    </div>
+
+    <div class="border-image-slice-example">
+        Element with border image slice setting
+    </div>
+    
+    <div class="box">
+        <span class="fragment clone">
+          This text style is cloned for each fragment
+        </span>
+        <br /><br />
+        <span class="fragment slice">
+          This text style is sliced for each fragment
+        </span>
+    </div>
+
+    <div class="box-shadow-example">
+        box-shadow: 5px 10px 15px lavender inset
+    </div>
+
+    <div class="box-sizing-border">
+        box-sizing: border-box
+    </div>
+
+    
+<table class="tbl" border="1">
+    <caption class="caption">Table 1.0 Student List</caption>
+    <tbody>
+      <tr>
+        <th>Name</th>
+        <th>ID</th>
+        <th>Gender</th>
+      </tr>
+      <tr>
+        <td>Lyka Gestiada</td>
+        <td>21-10687</td>
+        <td>female</td>
+      </tr>
+      <tr>
+        <td>Sherlyn Bayoca</td>
+        <td>21-11123</td>
+        <td>female</td>
+      </tr>
+      <tr>
+        <td>Jorlyn Gona</td>
+        <td>21-19456</td>
+        <td>female</td>
+      </tr>
+      <tr>
+        <td>Geselle Goboli</td>
+        <td>21-10045</td>
+        <td>female</td>
+      </tr>
+      <tr>
+        <td>Tricia Boco</td>
+        <td>21-18712</td>
+        <td>female</td>
+      </tr>
+    </tbody>
+  </table>
+  <div>
+    <input class="caret-color-example"
+           placeholder="Email">
+    <div class="show-color">caret-color: auto</div>
+  </div>
+  @charset "UTF-8";
+
+  <div class="col-rule">
+        Once upon a midnight dreary,
+        While I pondered, weak and weary,
+        Over many a quaint and curious
+        Volume of forgotten lore—
+        While I nodded, nearly napping,
+        Suddenly there came a tapping,
+        As of some one gently rapping,
+        Rapping at my chamber door.
+        "'T is some visitor," I muttered,
+        "Tapping at my chamber door
+        Only this and nothing more."
+        Ah, distinctly I remember,
+        It was in the bleak December,
+        And each separate dying ember
+        Wrought its ghost upon the floor.
+        Eagerly I wished the morrow;
+        Vainly I had sought to borrow
+        From my books surcease of sorrow
+        Sorrow for the lost Lenore—
+        For the rare and radiant maiden
+        Whom the angels name Lenore—
+        Nameless here for evermore.
+        And the silken, sad, uncertain
+        Rustling of each purple curtain
+        Thrilled me,—filled me with fantastic
+        Terrors, never felt before;
+        So that now, to still the beating
+        Of my heart, I stood repeating,
+        " 'T is some visitor entreating
+        Entrance at my chamber door
+        Some late visitor entreating
+        Entrance at my chamber door;
+        This it is and nothing more."
+        Presently my soul grew stronger;
+        Hesitating then no longer,
+        "Sir," said I, "or Madam, truly
+        Your forgiveness I implore;
+        But the fact is I was napping,
+    </div>
+    @charset "UTF-8"; 
+
+    <div class="mydiv">
+        <p>stands for Hyper Text Markup Language</p>
+        <p>is the standard markup language for creating Web pages</p>
+        <p>describes the structure of a Web page</p>
+        <p>consists of a series of elements</p>
+        <p> elements tell the browser how to display the content</p>
+    </div>
+
+    <ul class="list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <table class="cursor-value-table" cellspacing="0">
+        <tr>
+          <td style="cursor:alias">alias</td>
+          <td style="cursor:all-scroll">all-scroll</td>
+          <td style="cursor:auto">auto</td>
+          <td style="cursor:cell">cell</td>
+          <td style="cursor:context-menu">context-menu</td>
+          <td style="cursor:col-resize">col-resize</td>
+        </tr>
+        <tr>
+          <td style="cursor:copy">copy</td>
+          <td style="cursor:crosshair">crosshair</td>
+          <td style="cursor:default">default</td>
+          <td style="cursor:e-resize">e-resize</td>
+          <td style="cursor:ew-resize">ew-resize</td>
+          <td style="cursor:grab">grab</td>
+        </tr>
+        <tr>
+          <td style="cursor:grabbing">grabbing</td>
+          <td style="cursor:help">help</td>
+          <td style="cursor:move">move</td>
+          <td style="cursor:n-resize">n-resize</td>
+          <td style="cursor:ne-resize">ne-resize</td>
+          <td style="cursor:nesw-resize">nesw-resize</td>
+        </tr>
+        <tr>
+          <td style="cursor:ns-resize">ns-resize</td>
+          <td style="cursor: nw-resize">nw-resize</td>
+          <td style="cursor:nwse-resize">nwse-resize</td>
+          <td style="cursor:no-drop">no-drop</td>
+          <td style="cursor:none">none</td>
+          <td style="cursor:not-allowed">not-allowed</td>
+        </tr>
+        <tr>
+          <td style="cursor:pointer">pointer</td>
+          <td style="cursor:progress">progress</td>
+          <td style="cursor:row-resize">row-resize</td>
+          <td style="cursor:s-resize">s-resize</td>
+          <td style="cursor:se-resize">se-resize</td>
+          <td style="cursor:sw-resize">sw-resize</td>
+        </tr>
+        <tr>
+          <td style="cursor:text">text</td>
+          <td style="cursor:url(/img/css/circle.png), auto">URL</td>
+          <td style="cursor:vertical-text">vertical-text</td>
+          <td style="cursor:wait">wait</td>
+          <td style="cursor:zoom-in">zoom-in</td>
+          <td style="cursor:zoom-out">zoom-out</td>
+        </tr>
+    </table>
+
+    <div class="flex-grow">
+        <div>1</div>
+        <div>2</div>
+        <div style="flex-grow: 5">3</div>
+    </div>
+
+    <div class="flex-shrink">
+        <div>1</div>
+        <div>2</div>
+        <div style="flex-shrink: 4">3</div>
+    </div>
+    
+    <div class="flex">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+        <div>13</div>
+    </div>
+    
+    <div class="grid-template">
+        <div style="grid-area: header">Header</div>
+        <div style="grid-area: menu">Menu</div>
+        <div style="grid-area: main">Main</div>
+        <div style="grid-area: right">Right</div>
+        <div style="grid-area: footer">Footer</div>
+    </div>
+    
+    
+    <div class="grid-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div style="grid-column: 2 / 5;
+                    color: white;
+                    background-color: salmon !important; ">6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+    </div> 
+
+    <div class="grid-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+    </div>   
+    
+    <div class="relative">
+        <div class="absolute">
+        </div>
+    </div>
+        <p style="letter-spacing: 2px;
+            border: 1px solid steelblue; padding: 15px;">
+    A paragraph with increased letter spacing.
+    </p>
+    <br />
+    <p style="letter-spacing: -1.5px;
+            border: 1px solid steelblue; padding: 15px;">
+    A paragraph with decreased letter spacing.
+    </p>
+
+    <ul style="list-style-image: url('/img/css/leaf_icon.jpg')">
+    <li>lyka</li>
+    <li>sherlyn</li>
+    <li>jorlyn</li>
+    <li>geselle</li>
+    <li>tricia</li>
+    </ul>
+
+    <p style="text-align: center;">
+        This text is center aligned
+    </p>
+
+    <p style="text-decoration: underline red">
+        This text has an underline text-decoration
+    </p>
+
+    <p style="text-decoration-line: overline">
+        Text with an overline
+    </p>
+
+    <p class="wave">
+        Text with a styled underline
+    </p>
+
+    <p style="text-shadow: 2px 2px #ccc; font-size: 22px;">
+        This text has a shadow.
+    </p>
+
+    <p style="text-transform: uppercase">
+        This text displays in capital letters
+    </p>
+
+    <div style="padding-bottom: 50px;
+        border:2px solid steelblue;">
+    This element has a 50px bottom padding
+    </div>
+        
+    <div style="padding-left: 50px;
+        border:2px solid steelblue;">
+    This element has a 50px left padding
+    </div>
+
+    <div style="padding-right: 50px;
+        text-align:right;
+        border:2px solid steelblue;">
+    This element has a 50px right padding
+    </div>
+
+    <div style="padding-top: 50px; 
+        border:1px solid lightblue;
+        background-color:aliceblue;">
+    This element has a 50px top padding
+    </div>
+
+    <div style="margin-bottom: 50px; background: aliceblue;">
+        An element with a 50px bottom margin
+    </div>
+
+    <div style="margin-left: 50px; background: aliceblue;">
+        An element with a 50px left margin.
+    </div>
+
+    <div style="margin-right: 100px; background: aliceblue;">
+        An element with a 100px right margin
+    </div>
+
+    <div class="grid-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div style="grid-area: 1 / 2 / 5 / 6; 
+                    color: white;
+                    background-color: salmon;">8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+        <div>13</div>
+        <div>14</div>
+        <div>15</div>
+    </div>  
+
+    <div class="grid-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+    </div>  
+</body>
+</html>
