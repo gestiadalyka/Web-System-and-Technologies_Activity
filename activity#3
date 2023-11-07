@@ -1,4 +1,7 @@
-<div class="align-content-center">
+<!DOCTYPE html>
+<html>
+
+  <div class="align-content-center">
   <div>1</div>
   <div>2</div>
   <div>3</div>
@@ -8,4 +11,5 @@
   <div>7</div>
   <div>8</div>
   <div>9</div>
-</div>
+  </div>
+</html>
