@@ -601,6 +601,738 @@
   <div class="show-color">caret-color: auto</div>
 </div>
 
+@charset "UTF-8";
+
+<section>
+  <img src="/img/css/the-sower-sm.jpg"
+       style="float: left;
+       margin: 0 10px 10px 0;" />
+  <div>
+    This text is not cleared and continues to
+    wrap the image.
+  </div>
+  <div style="clear: both;">
+    This text is cleared and continues below the image.
+  </div>
+</section>
+
+<style>
+  .colored-example {
+    color: orangered;
+  }
+</style>
+
+<div class="colored-example">color: orangered</div>
+
+<style>
+  .columns {
+    column-count: 2;
+  }
+</style>
+
+<div class="columns">
+  Claude Monet was raised in Le Havre,
+  Normandy, and became interested in the
+  outdoors and drawing from an early age.
+  Although his mother, Louise-Justine
+  Aubrée Monet, supported his ambitions
+  to be a painter, his father, Claude-Adolphe,
+  disapproved and wanted him to pursue a
+  career in business. He was very close to
+  his mother, but she died in January 1857
+  when he was sixteen years old, and he was
+  sent to live with his childless, widowed
+  but wealthy aunt, Marie-Jeanne Lecadre.
+  He went on to study at the Académie Suisse,
+  and under the academic history painter
+  Charles Gleyre, where he was a classmate
+  of Auguste Renoir. His early works include
+  landscapes, seascapes, and portraits, but
+  attracted little attention. A key early
+  influence was Eugène Boudin who introduced
+  him to the concept of plein air painting.
+  From 1883, Monet lived in Giverny, also
+  in northern France, where he purchased a
+  house and property and began a vast
+  landscaping project, including a
+  water-lily pond.
+</div>
+
+<style>
+  .col-fill {
+    height: 550px;
+    column-count: 3;
+    column-fill: auto;
+  }
+</style>
+
+<div class="col-fill">
+  Claude Monet was raised in Le Havre,
+  Normandy, and became interested in the
+  outdoors and drawing from an early age.
+  Although his mother, Louise-Justine
+  Aubrée Monet, supported his ambitions
+  to be a painter, his father, Claude-Adolphe,
+  disapproved and wanted him to pursue a
+  career in business. He was very close to
+  his mother, but she died in January 1857
+  when he was sixteen years old, and he was
+  sent to live with his childless, widowed
+  but wealthy aunt, Marie-Jeanne Lecadre.
+  He went on to study at the Académie Suisse,
+  and under the academic history painter
+  Charles Gleyre, where he was a classmate
+  of Auguste Renoir. His early works include
+  landscapes, seascapes, and portraits, but
+  attracted little attention. A key early
+  influence was Eugène Boudin who introduced
+  him to the concept of plein air painting.
+  From 1883, Monet lived in Giverny, also
+  in northern France, where he purchased a
+  house and property and began a vast
+  landscaping project, including a
+  water-lily pond.
+</div>
+
+<style>
+  .col-rule {
+    column-count: 2;
+    column-gap: 70px;
+    column-rule: 4px dotted teal;
+  }
+</style>
+
+<div class="col-rule">
+  Paul Gauguin was a French Post-Impressionist
+  artist. Unappreciated until after his death,
+  Gauguin is now recognized for his experimental
+  use of color and Synthetist style that were
+  distinct from Impressionism. Toward the end
+  of his life, he spent ten years in French
+  Polynesia. The paintings from this time
+  depict people or landscapes from that region.
+
+  His work was influential on the French
+  avant-garde and many modern artists, such
+  as Pablo Picasso and Henri Matisse, and he
+  is well known for his relationship with
+  Vincent and Theo van Gogh. Gauguin's art
+  became popular after his death, partially
+  from the efforts of dealer Ambroise Vollard,
+  who organized exhibitions of his work late in
+  his career and assisted in organizing two
+  important posthumous exhibitions in Paris.
+</div>
+
+<style>
+  .col-rule-color {
+    column-count: 2;
+    column-gap: 70px;
+    column-rule-style: solid;
+    column-rule-width: 3px;
+    column-rule-color: teal;
+  }
+</style>
+
+<div class="col-rule-color">
+  Claude Monet was raised in Le Havre,
+  Normandy, and became interested in the
+  outdoors and drawing from an early age.
+  Although his mother, Louise-Justine
+  Aubrée Monet, supported his ambitions
+  to be a painter, his father, Claude-Adolphe,
+  disapproved and wanted him to pursue a
+  career in business. He was very close to
+  his mother, but she died in January 1857
+  when he was sixteen years old, and he was
+  sent to live with his childless, widowed
+  but wealthy aunt, Marie-Jeanne Lecadre.
+  He went on to study at the Académie Suisse,
+  and under the academic history painter
+  Charles Gleyre, where he was a classmate
+  of Auguste Renoir. His early works include
+  landscapes, seascapes, and portraits, but
+  attracted little attention. A key early
+  influence was Eugène Boudin who introduced
+  him to the concept of plein air painting.
+  From 1883, Monet lived in Giverny, also
+  in northern France, where he purchased a
+  house and property and began a vast
+  landscaping project, including a
+  water-lily pond.
+</div>
+
+<div style="column-count:3">
+  <h2 style="column-span: all;">
+    Paul Gauguin, a Post-Impressionist Artist
+  </h2>
+  Paul Gauguin was a French Post-Impressionist
+  artist. Unappreciated until after his death,
+  Gauguin is now recognized for his experimental
+  use of color and Synthetist style that were
+  distinct from Impressionism. Toward the end
+  of his life, he spent ten years in French
+  Polynesia. The paintings from this time
+  depict people or landscapes from that region.
+
+  His work was influential on the French
+  avant-garde and many modern artists, such
+  as Pablo Picasso and Henri Matisse, and he
+  is well known for his relationship with
+  Vincent and Theo van Gogh. Gauguin's art
+  became popular after his death, partially
+  from the efforts of dealer Ambroise Vollard,
+  who organized exhibitions of his work late in
+  his career and assisted in organizing two
+  important posthumous exhibitions in Paris.
+</div>
+
+<div style="columns: 150px 3">
+  Paul Gauguin was a French Post-Impressionist
+  artist. Unappreciated until after his death,
+  Gauguin is now recognized for his experimental
+  use of color and Synthetist style that were
+  distinct from Impressionism. Toward the end
+  of his life, he spent ten years in French
+  Polynesia. The paintings from this time
+  depict people or landscapes from that region.
+
+  His work was influential on the French
+  avant-garde and many modern artists, such
+  as Pablo Picasso and Henri Matisse, and he
+  is well known for his relationship with
+  Vincent and Theo van Gogh. Gauguin's art
+  became popular after his death, partially
+  from the efforts of dealer Ambroise Vollard,
+  who organized exhibitions of his work late in
+  his career and assisted in organizing two
+  important posthumous exhibitions in Paris.
+</div>
+
+<style>
+  .list {
+    list-style-type: none;
+    padding-left: 10px;
+  }
+
+  .list li::before {
+    content: "\2605";
+    margin-right: 10px;
+    color: teal;
+  }
+</style>
+
+<ul class="list">
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+</ul>
+
+<style>
+  .mydiv {
+    counter-reset: counterincement;
+  }
+
+  .mydiv p::before {
+    content: "Article " counter(counterincement) ". ";
+    font-weight: bold;
+    counter-increment: counterincement;
+  }
+</style>
+
+<div class="mydiv">
+  <p>Major Announcements From the Shopify Unite Conference</p>
+  <p>Build a Side Hustle Through Amazon With This Bundle</p>
+  <p>How to Massively Grow Your Amazon Business in 8 Steps</p>
+  <p>Fout Trends That Will Rewire the Fintech Industry</p>
+  <p>Why Today's Price Wars Are Ecommerce's Biggest Mistake</p>
+</div>
+
+<style>
+  .mydiv {
+    counter-reset: number 0;
+  }
+
+  .mydiv p::before {
+    counter-increment: number;
+    content: "Article " counter(number) ". ";
+    font-weight: bold;
+  }
+</style>
+
+<div class="mydiv">
+  <p>Major Announcements From the Shopify Unite Conference</p>
+  <p>Build a Side Hustle Through Amazon With This Bundle</p>
+  <p>How to Massively Grow Your Amazon Business in 8 Steps</p>
+  <p>Four Trends That Will Rewire the Fintech Industry</p>
+  <p>Why Today's Price Wars Are Ecommerce's Biggest Mistake</p>
+</div>
+
+<style>
+  .cursor-value-table {
+    width: 100%;
+  }
+
+  .cursor-value-table td {
+    border: solid 1px #bfbfbf;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .cursor-value-table td:hover {
+    background-color: #f1f9fa;
+  }
+</style>
+
+<table class="cursor-value-table" cellspacing="0">
+  <tr>
+    <td style="cursor:alias">alias</td>
+    <td style="cursor:all-scroll">all-scroll</td>
+    <td style="cursor:auto">auto</td>
+    <td style="cursor:cell">cell</td>
+    <td style="cursor:context-menu">context-menu</td>
+    <td style="cursor:col-resize">col-resize</td>
+  </tr>
+  <tr>
+    <td style="cursor:copy">copy</td>
+    <td style="cursor:crosshair">crosshair</td>
+    <td style="cursor:default">default</td>
+    <td style="cursor:e-resize">e-resize</td>
+    <td style="cursor:ew-resize">ew-resize</td>
+    <td style="cursor:grab">grab</td>
+  </tr>
+  <tr>
+    <td style="cursor:grabbing">grabbing</td>
+    <td style="cursor:help">help</td>
+    <td style="cursor:move">move</td>
+    <td style="cursor:n-resize">n-resize</td>
+    <td style="cursor:ne-resize">ne-resize</td>
+    <td style="cursor:nesw-resize">nesw-resize</td>
+  </tr>
+  <tr>
+    <td style="cursor:ns-resize">ns-resize</td>
+    <td style="cursor: nw-resize">nw-resize</td>
+    <td style="cursor:nwse-resize">nwse-resize</td>
+    <td style="cursor:no-drop">no-drop</td>
+    <td style="cursor:none">none</td>
+    <td style="cursor:not-allowed">not-allowed</td>
+  </tr>
+  <tr>
+    <td style="cursor:pointer">pointer</td>
+    <td style="cursor:progress">progress</td>
+    <td style="cursor:row-resize">row-resize</td>
+    <td style="cursor:s-resize">s-resize</td>
+    <td style="cursor:se-resize">se-resize</td>
+    <td style="cursor:sw-resize">sw-resize</td>
+  </tr>
+  <tr>
+    <td style="cursor:text">text</td>
+    <td style="cursor:url(/img/css/circle.png), auto">URL</td>
+    <td style="cursor:vertical-text">vertical-text</td>
+    <td style="cursor:wait">wait</td>
+    <td style="cursor:zoom-in">zoom-in</td>
+    <td style="cursor:zoom-out">zoom-out</td>
+  </tr>
+</table>
+
+<div style="display: flex;">
+  <div style="flex: 50%; padding: 20px;">
+    English<br /><br />
+    Claude Monet was raised in Le Havre, Normandy, and
+    became interested in the outdoors and drawing from
+    an early age. Although his mother, Louise-Justine
+    Aubrée Monet, supported his ambitions to be a painter,
+    his father, Claude-Adolphe, disapproved and wanted him
+    to pursue a career in business. He was very close to
+    his mother, but she died in January 1857 when he was
+    sixteen years old, and he was sent to live with his
+    childless, widowed but wealthy aunt, Marie-Jeanne
+    Lecadre. He went on to study at the Académie Suisse,
+    and under the academic history painter Charles Gleyre,
+    where he was a classmate of Auguste Renoir. His early
+    works include landscapes, seascapes, and portraits, but
+    attracted little attention. A key early influence was
+    Eugène Boudin who introduced him to the concept of
+    plein air painting. From 1883, Monet lived in Giverny,
+    also in northern France, where he purchased a house and
+    property and began a vast landscaping project,
+    including a water-lily pond.
+  </div>
+  <div style="flex: 50%; direction: rtl; padding: 20px;">
+    Arabic<br /><br />
+    نشأ كلود مونيه في لوهافر ونورماندي و
+    أصبح مهتمًا بالهواء الطلق والرسم منه
+    سن مبكرة. على الرغم من أن والدته لويز جوستين
+    Aubrée Monet ، دعم طموحاته في أن يكون رسامًا ،
+    والده ، كلود أدولف ، رفضه وأراده
+    لمتابعة مهنة في مجال الأعمال. كان قريبًا جدًا من
+    والدته ، لكنها توفيت في يناير 1857 عندما كان
+    ستة عشر عاما ، وأرسل ليعيش معه
+    ليس لديها أطفال ، أرملة ولكن عمة ثرية ، ماري جين
+    ليكادر. ذهب للدراسة في أكاديمية سويسرا ،
+    وتحت إشراف رسام التاريخ الأكاديمي تشارلز جلير ،
+    حيث كان زميلًا لأوغست رينوار. مبكرا
+    تشمل الأعمال المناظر الطبيعية
+    ، والمناظر البحرية ، والصور الشخصية ، ولكن
+    اجتذبت القليل من الاهتمام. كان التأثير الرئيسي المبكر
+    يوجين بودين الذي قدمه لمفهوم
+    لوحة الهواء بلين. من عام 1883 عاش مونيه في جيفرني ،
+    أيضًا في شمال فرنسا ، حيث اشترى منزلًا و
+    الملكية وبدأت مشروع تنسيق حدائق واسع ،
+    بما في ذلك بركة الماء الزنبق.
+  </div>
+</div>
+
+<style>
+  .display-example {
+    background-color: lightblue;
+    display: block;
+  }
+</style>
+
+<p>
+  The first line.
+  <span class="display-example">display: block</span>
+  The last line.
+</p>
+
+
+<style>
+  table.tb { border-collapse: separate; width: 300px; empty-cells: hide; }
+  .tb th, .tb td { padding: 5px; border: solid 1px #777; }
+  .tb th { background-color: lightblue; }
+</style>
+
+<table class="tb">
+  <tr>
+    <th>First name</th>
+    <th>Last name</th>
+  </tr>
+  <tr>
+    <td>Denice</td>
+    <td>Hobermann</td>
+  </tr>
+  <tr>
+    <td>Paulo</td>
+    <td>Cornell</td>
+  </tr>
+  <tr>
+    <td>Jane</td>
+    <td></td>
+  </tr>
+</table>
+
+<style>
+  .saturate {
+    filter: saturate(7);
+  }
+</style>
+
+<img class="saturate" src="/img/css/sunflowers.jpg"
+     alt="Sunflowers by Van Gogh">
+
+<style>
+  .flex-grow {
+    background-color: #776fac;
+    padding: 5px;
+    display: flex;
+  }
+
+  .flex-grow > div {
+    background-color: aliceblue;
+    margin: 5px;
+    width: 20%;
+    text-align: center;
+    line-height: 55px;
+    font-size: 20px;
+  }
+</style>
+
+<div class="flex-grow">
+  <div>1</div>
+  <div>2</div>
+  <div style="flex-grow: 5">3</div>
+</div>
+
+<style>
+  .flex-shrink {
+    background-color: #776fac;
+    padding: 5px;
+    display: flex;
+  }
+
+  .flex-shrink > div {
+    background-color: aliceblue;
+    margin: 5px;
+    width: 45%;
+    text-align: center;
+    line-height: 55px;
+    font-size: 20px;
+  }
+</style>
+
+<div class="flex-shrink">
+  <div>1</div>
+  <div>2</div>
+  <div style="flex-shrink: 4">3</div>
+</div>
+
+<div>
+  <img style="float: right; margin: 7px 10px 10px 15px;"
+       src="/img/css/lillies-and-bridge-sm.jpg" />
+  Water Lilies and Japanese Bridge represents two of Monet’s greatest
+  achievements: his gardens at Giverny and the paintings they inspired.
+  Monet moved to Giverny in 1883 and immediately began to develop the
+  property. For him, the gardens were both a passion and a second
+  artistic medium. <br /><br />
+
+  His Asian garden was not part of the original estate; it was
+  located on an adjacent property with a small brook,
+  which he purchased and enlarged into a pond for a water garden
+  in 1893. He transformed the site into an inspired vision
+  of cool greens and calm, reflective waters, enhanced by exotic
+  plants such as bamboo, ginkgo, and Japanese fruit trees and a
+  Japanese footbridge. It was not until 1899, however, that he
+  began a series of views of the site, of which this is one.
+</div>      
+
+<p style="font: italic 20px Georgia, serif;">
+  Text with a custom style, size, and font family.
+</p>
+
+<p style="font-family: 'Gill Sans', 'Gill Sans MT',
+                        Calibri, 'Trebuchet MS', sans-serif">
+  Text using the Gill Sans font.
+</p>
+
+<style>
+  .flex {
+    background-color: #776fac;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+
+  .flex > div {
+    background-color: aliceblue;
+    margin: 5px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 18px;
+    width: 100px;
+  }
+</style>
+
+<div class="flex">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>
+  <div>7</div>
+  <div>8</div>
+  <div>9</div>
+  <div>10</div>
+  <div>11</div>
+  <div>12</div>
+  <div>13</div>
+</div>
+
+<style>
+  .grid-template {
+    padding: 10px;
+    background-color: steelblue;
+    display: grid;
+    grid-gap: 10px;
+    grid: 'header header header header header header' 
+          'menu main main main right right' 
+          'menu footer footer footer footer footer';
+  }
+
+  .grid-template > div {
+    background-color: aliceblue;
+    text-align: center;
+    padding: 25px 5px;
+    font-size: 18px;
+  }
+</style>
+
+<div class="grid-template">
+  <div style="grid-area: header">Header</div>
+  <div style="grid-area: menu">Menu</div>
+  <div style="grid-area: main">Main</div>
+  <div style="grid-area: right">Right</div>
+  <div style="grid-area: footer">Footer</div>
+</div>
+
+<style>
+  .grid-container {
+    background-color: steelblue;
+    padding: 10px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto auto;
+  }
+
+  .grid-container > div {
+    background-color: aliceblue;
+    text-align: center;
+    padding: 15px 5px;
+    font-size: 18px;
+  }
+</style>
+
+<div class="grid-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+  <div>4</div>
+  <div>5</div>
+  <div style="grid-column: 2 / 5;
+              color: white;
+              background-color: salmon !important; ">6</div>
+  <div>7</div>
+  <div>8</div>
+  <div>9</div>
+  <div>10</div>
+</div> 
+
+<style>
+  .grid-container {
+    background-color: steelblue;
+    padding: 10px;
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: auto auto auto auto;
+  }
+
+  .grid-container > div {
+    background-color: aliceblue;
+    text-align: center;
+    padding: 15px 5px;
+    font-size: 18px;
+  }
+</style>
+
+<div class="grid-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>
+  <div>7</div>
+  <div>8</div>
+  <div>9</div>
+  <div>10</div>
+  <div>11</div>
+</div>     
+<style>
+  .height-container {
+    border: 1px solid steelblue;
+    background-color: aliceblue;
+    padding: 15px;
+    height: 400px;
+  }
+</style>
+
+<div class="height-container">
+  <h3>Paul Cézanne</h3>
+  <p>
+    Cézanne is said to have formed the bridge
+    between late 19th-century Impressionism and
+    the early 20th century's new line of artistic
+    enquiry, Cubism. Cézanne's often repetitive,
+    exploratory brushstrokes are highly
+    characteristic and clearly recognizable.
+    He used planes of colour and small
+    brushstrokes that build up to form
+    complex fields.
+  </p>
+</div>
+
+<style>
+  .paragraph {
+    border: 1px solid steelblue;
+    padding: 15px;
+    width: 250px;
+    hyphens: auto;
+  }
+</style>
+
+<p class="paragraph">
+  Paul Cézanne was a French artist and
+  Post-Impressionist painter whose work
+  laid the foundations of the transition
+  from the 19th-century conception of
+  artistic endeavor to a new and
+  radically different world of art in
+  the 20th century.
+</p>
+
+<style>
+  .relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    background-color: paleturquoise;
+  }
+
+  .absolute {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    width: 200px;
+    height: 90px;
+    background-color: teal;
+  }
+</style>
+
+<div class="relative">
+  <div class="absolute">
+  </div>
+</div>
+
+<p style="letter-spacing: 2px;
+          border: 1px solid steelblue; padding: 15px;">
+  A paragraph with increased letter spacing.
+</p>
+<br />
+<p style="letter-spacing: -1.5px;
+          border: 1px solid steelblue; padding: 15px;">
+  A paragraph with decreased letter spacing.
+</p>
+
+<ul style="list-style-image: url('/img/css/leaf_icon.jpg')">
+  <li>Vincent Van Gogh</li>
+  <li>Henri Matisse</li>
+  <li>Paul Gauguin</li>
+</ul>
+
+
+<style>
+  .margin {
+    margin: 40px;
+    padding: 10px;
+    background: aliceblue;
+  }
+</style>
+
+<div class="margin">
+  An element with a 40px margin
+</div>
+
+<div style="margin-left: 50px; background: aliceblue;">
+  An element with a 50px left margin.
+</div>
+
+<div style="margin-right: 100px; background: aliceblue;">
+  An element with a 100px right margin
+</div>
+
 </html>
 
 
