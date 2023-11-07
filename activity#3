@@ -1,7 +1,27 @@
 <!DOCTYPE html>
 <html>
 
-  <div class="align-content-center">
+ <style>
+  .align-content-center {
+    background-color: #776fac;
+    padding: 5px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+
+  .align-content-center > div {
+    background-color: aliceblue;
+    margin: 5px;
+    width: 100px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 18px;
+  }
+</style>
+
+<div class="align-content-center">
   <div>1</div>
   <div>2</div>
   <div>3</div>
@@ -11,5 +31,181 @@
   <div>7</div>
   <div>8</div>
   <div>9</div>
-  </div>
+</div>
+
+<style>
+  .align-items-center {
+    background-color: #776fac;
+    padding: 5px;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .align-items-center > div {
+    background-color: aliceblue;
+    margin: 5px;
+    width: 100px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 18px;
+  }
+</style>
+
+<div class="align-items-center">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>
+  <div>7</div>
+  <div>8</div>
+  <div>9</div>
+</div>
+
+<style>
+  .align-items-center {
+    background-color: #776fac;
+    padding: 5px;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .align-items-center > div {
+    background-color: aliceblue;
+    margin: 5px;
+    width: 100px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 18px;
+  }
+</style>
+
+<div class="align-items-center">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>
+  <div>7</div>
+  <div>8</div>
+  <div>9</div>
+</div>
+
+<style> 
+  .animate {
+    width: 80px;
+    height: 80px;
+    background: steelblue;
+    animation: sizingAnimation 3s infinite;
+  }
+
+  @keyframes sizingAnimation {
+    from { width: 80px; }
+    to { width: 300px; }
+  }
+</style>
+
+<div class="animate"></div>
+
+<style> 
+  .animate {
+    width: 80px;
+    height: 80px;
+    background: steelblue;
+    position: relative;
+    animation: translateAnimation 2s infinite;
+    animation-delay: 5s;
+  }
+
+  @keyframes translateAnimation {
+    from { transform: none; }
+    to { transform: translateX(250%); }
+  }
+</style>
+
+<div class="animate"></div>
+
+<style> 
+  .animate {
+    width: 80px;
+    height: 80px;
+    background: steelblue;
+    
+    animation: alternateAnimation 1s infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes alternateAnimation {
+    from { transform: none; }
+    to { transform: translateX(250%); }
+  }
+</style>
+
+<div class="animate"></div>
+
+<style> 
+  .animate-example {
+    width: 80px;
+    height: 80px;
+    background: steelblue;
+    
+    animation: movingAnimation 3s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes movingAnimation {
+    from { transform: none; }
+    to { transform: translateX(300%) rotate(180deg); }
+  }
+</style>
+
+<div class="animate-example"></div>
+
+<style> 
+  .animate-example {
+    width: 80px;
+    height: 80px;
+    background: steelblue;
+    
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: none;
+  }
+  
+  @keyframes movingAnimation {
+    from { transform: none; }
+    to { transform: translateX(350%); }
+  }
+</style>
+
+<div class="animate-example"></div>
+
+<style> 
+  .animate-example {
+    width: 80px;
+    height: 80px;
+    background: steelblue;
+  
+    animation: movingAnimation 2s;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+  }
+  
+  @keyframes movingAnimation {
+    from { transform: none; }
+    to { transform: translateX(350%); }
+  }
+</style>
+
+<div class="animate-example"></div>
+
 </html>
+
+
