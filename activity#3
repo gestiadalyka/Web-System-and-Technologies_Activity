@@ -206,6 +206,401 @@
 
 <div class="animate-example"></div>
 
+<style>
+  .backface {
+    position: relative;
+    width: 100px;
+    height: 60px;
+    background-color: lightblue;
+    transform: rotateY(180deg);
+    text-align: center;
+    padding-top: 40px;
+    backface-visibility: visible;
+  }
+</style>
+
+<div class="backface">Backface</div>
+
+<style>
+  .bg {
+    background: lightblue;
+    padding: 20px;
+  }
+
+  .opaque {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+  }
+</style>
+
+<div class="bg">
+  <div class="opaque">
+    Background is white with 50% opacity.
+  </div>
+</div>
+
+<style>
+  .clip-example {
+    height: 250px;
+    border: 25px solid rgba(255, 228, 181, .5);
+    padding: 25px;
+    background-image: url("/img/css/sunflowers.jpg");
+    background-clip: content-box;
+  }
+</style>
+
+<div class="clip-example"></div>
+
+<style>
+  .bg-example {
+    padding: 25px;
+    background-color: #c6d2fe;
+  }
+</style>
+
+<div class="bg-example">
+  background-color: #c6d2fe
+</div>
+
+<style>
+  .bg-image-multiple {
+    background-image: url("/img/css/vangogh.jpg"), 
+                      url("/img/css/church-at-auvers.jpg");
+    background-repeat: no-repeat;
+    height: 350px;
+  }
+</style>
+
+<div class="bg-image-multiple"></div>
+
+<style>
+  .bg-example {
+    background-image: url("/img/css/cardplayers.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+  }
+</style>
+
+<div class="bg-example"></div>
+
+
+<style>
+  .border-image {
+    padding: 20px;
+    border: 20px solid transparent;
+    border-image: url(/img/css/wheatfield-with-crows.jpg) 100 round;
+  }
+</style>
+
+<div class="border-image">
+  A element with an image border.
+</div>
+
+<style>
+  .mydiv {
+    padding: 15px;
+    margin: 15px 0;
+  }
+</style>
+
+<div class="mydiv" style="border-bottom: 3px solid steelblue">
+  3px solid steelblue border
+</div>
+<div class="mydiv" style="border-bottom: 5px double lightblue">
+  5px double lightblue border
+</div>
+<div class="mydiv" style="border-bottom: 3px dashed red">
+  3px dashed red border
+</div>
+
+
+<style>
+  .border-bottom-example {
+    padding: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: #302ea3;
+  }
+</style>
+
+<div class="border-bottom-example">
+  border-bottom-color: #302ea3.
+</div>
+
+
+<style>
+  .border-rounded {
+    padding: 30px;
+    border: 3px solid #302ea3;
+    border-bottom-left-radius: 50px;
+  }
+</style>
+
+<div class="border-rounded">50px radius on bottom left corner</div>
+
+<style>
+  .border-rounded {
+    border: 3px solid #302ea3;
+    padding: 30px;
+    border-bottom-right-radius: 50px;
+  }
+</style>
+
+<div class="border-rounded">
+  50px radius on bottom right corner
+</div>
+
+<style>
+  .table-border-collapse,
+  .table-border-collapse td,
+  .table-border-collapse th {
+    border: 1px solid #302ea3;
+    padding: 10px;
+  }
+
+  .table-border-collapse {
+    border-collapse: collapse;
+  }
+</style>
+<table class="table-border-collapse">
+  <tr>
+    <th>Fullname</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Susan Doe</td>
+    <td>26</td>
+  </tr>
+  <tr>
+    <td>Vivian Grim</td>
+    <td>24</td>
+  </tr>
+  <tr>
+    <td>Kevin John</td>
+    <td>35</td>
+  </tr>
+</table>
+
+
+<style>
+  .border-example {
+    padding: 20px;
+    border-style: solid;
+    border-color: #302ea3;
+  }
+</style>
+
+<div class="border-example">
+  border-color: #302ea3
+</div>
+
+<style>
+  .border-image-outset-border {
+    border: 20px solid transparent;
+    padding: 15px;
+    margin: 30px;
+    border-image: url(/img/css/wheatfield-with-crows.jpg) 100 round;
+    border-image-outset: 1.5;
+  }
+</style>
+
+<div class="border-image-outset-border">
+  Element with border image outset setting
+</div>
+
+<style>
+  .border-image-slice-example {
+    border: 20px solid transparent;
+    padding: 15px;
+    border-image: url(/img/css/wheatfield-with-crows.jpg) 100 round;
+    border-image-slice: 10;
+  }
+</style>
+
+<div class="border-image-slice-example">
+  Element with border image slice setting
+</div>
+
+<style>
+  .mydiv {
+    padding: 15px;
+    margin: 15px 0;
+  }
+</style>
+
+<div class="mydiv" style="border-left: 3px solid steelblue">
+  3px solid steelblue border
+</div>
+<div class="mydiv" style="border-left: 5px double lightblue">
+  5px double lightblue border
+</div>
+<div class="mydiv" style="border-left: 3px dashed red">
+  3px dashed red border
+</div>
+
+<style>
+  .mydiv {
+    padding: 15px;
+    margin: 15px 0;
+  }
+</style>
+
+<div class="mydiv"
+     style="border-top: 3px solid steelblue">
+  3px solid steelblue border
+</div>
+<div class="mydiv"
+     style="border-top: 5px double lightblue">
+  5px double lightblue border
+</div>
+<div class="mydiv"
+     style="border-top: 3px dashed red">
+  3px dashed red border
+</div>
+
+<style>
+  .bottom-relative {
+    position: relative;
+    width: 350px;
+    height: 200px;
+    background-color: firebrick;
+  }
+
+  .bottom-absolute {
+    position: absolute;
+    left: 15px;
+    bottom: -20px;
+    width: 250px;
+    height: 90px;
+    background-color: orangered;
+    transition: bottom 1s ease .2s;
+  }
+</style>
+
+<div class="bottom-relative">
+  <div class="bottom-absolute"></div>
+</div>  
+
+<style>
+  .box {
+    width: 165px;
+    padding: 10px;
+    border: 2px solid steelblue;
+  }
+
+  .fragment {
+    line-height: 2;
+    border: 1px solid steelblue;
+    border-radius: 10px;
+    padding: 2px;
+    background-color: aliceblue;
+  }
+
+  .clone {
+    box-decoration-break: clone;
+  }
+
+  .slice {
+    box-decoration-break: slice;
+  }
+</style>
+
+<div class="box">
+  <span class="fragment clone">
+    This text style is cloned for each fragment
+  </span>
+  <br /><br />
+  <span class="fragment slice">
+    This text style is sliced for each fragment
+  </span>
+</div>
+
+<style>
+  .box-shadow-example {
+    padding: 25px;
+    border: 1px solid steelblue;
+    box-shadow: 5px 10px 15px lavender inset;
+  }
+</style>
+
+<div class="box-shadow-example">
+  box-shadow: 5px 10px 15px lavender inset
+</div>
+
+<style>
+  .box-sizing-border {
+    padding: 25px;
+    border: 10px solid aliceblue;
+    width: 300px;
+    box-sizing: border-box;
+  }
+</style>
+
+<div class="box-sizing-border">
+  box-sizing: border-box
+</div>
+
+<style>
+  .tbl { border-collapse: collapse; width: 400px; }
+  .tbl th { background: aliceblue; }
+  .tbl th, .tbl td { padding: 5px 7px; border: solid 1px #e7e7e8; }
+  
+  .tbl .caption {
+    margin: 15px 0;
+    caption-side: top;
+    background: aliceblue;
+    color: black;
+    padding-left: 10px;
+</style>
+
+<table class="tbl" border="1">
+  <caption class="caption">Table 1.0 Employees List</caption>
+  <tbody>
+    <tr>
+      <th>Name</th>
+      <th>Position</th>
+      <th>Gender</th>
+    </tr>
+    <tr>
+      <td>Alfred Futter</td>
+      <td>Web Designer</td>
+      <td>Male</td>
+    </tr>
+    <tr>
+      <td>Nicolas Stuart</td>
+      <td>Web Designer</td>
+      <td>Male</td>
+    </tr>
+    <tr>
+      <td>Joseph McGuire</td>
+      <td>Graphic Artist</td>
+      <td>Male</td>
+    </tr>
+    <tr>
+      <td>Sarah Mitts</td>
+      <td>Video Edittor</td>
+      <td>Female</td>
+    </tr>
+    <tr>
+      <td>Michelle Ranger</td>
+      <td>Data Analyst</td>
+      <td>Female</td>
+    </tr>
+  </tbody>
+</table>
+
+<style>
+  .caret-color-example {
+    caret-color: auto;
+  }
+</style>
+
+<div>
+  <input class="caret-color-example"
+         placeholder="Email">
+  <div class="show-color">caret-color: auto</div>
+</div>
+
 </html>
 
 
